@@ -1,0 +1,21 @@
+<div id="steps-container" class="d-flex flex-md-column flex-sm-row">
+    <app-side-bar-step 
+        [stepNumber]="steps[0].stepNumber"
+        [stepTitle]="steps[0].stepTitle"
+        [isActive]="steps[0].stepNumber === currentStep">
+    </app-side-bar-step>
+
+    <app-side-bar-step 
+        [stepNumber]="steps[1].stepNumber"
+        [stepTitle]="steps[1].stepTitle"
+        [isActive]="steps[1].stepNumber === currentStep">
+    </app-side-bar-step>
+
+    <app-side-bar-step 
+        [stepNumber]="steps[2].stepNumber"
+        [stepTitle]="steps[2].stepTitle"
+        [isActive]="steps[2].stepNumber === currentStep">
+    </app-side-bar-step>
+
+    <!-- Ajoutez autant de fois que nécessaire pour chaque étape -->
+</div>
